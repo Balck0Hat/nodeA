@@ -4,7 +4,7 @@ var User = require('../models/user');
 var Group = require('../models/group');
 
 
-router.get('/', function (req, res, next) {
+router.get('/index', function (req, res, next) {
     return res.render('index.ejs');
 });
 
